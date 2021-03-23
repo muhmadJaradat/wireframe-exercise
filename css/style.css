@@ -1,54 +1,47 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #fff;
-    color: #f1f1f1;
-    font-family: Arial, Helvetica, sans-serif;
-    max-width: 1100px;
-}
-
 header {
-    border-width: 100%;
-    background-color: #808080;
+    background: #353636;
+    height: 90px;
 }
 
-.container {
-    display: flex;
+nav {
+    margin: 0 auto;
+    width: 960px;
 }
 
-.container .logo {
-    margin: 10px 20px 10px 80px;
+nav img {
+    margin-top: 10px;
+    float: left;
+    margin-right: 30px;
 }
 
-img.logo {
-    width: 25%;
+nav ul {
+    float: left;
 }
 
-.container .navbar {
-    width: 75%;
-    margin: auto;
-    text-align: left;
+li a {
+    color: rgb(168, 164, 164);
+    text-decoration: none;
 }
 
-nav ul li {
-    display: inline;
-    padding-left: 80px;
-    text-align: left;
+nav li {
+    float: left;
+    line-height: 90px;
+    margin-right: 90px;
+    list-style-type: none;
 }
 
 main {
-    width: 100%;
+    width: 960px;
+    margin: 0 auto;
 }
 
 article#up img {
-    padding: 30px 80px 30px 80px;
+    padding: 30px 80px 30px 0px;
 }
 
 .down {
     display: flex;
-    padding-left: 80px;
+    padding-left: 0px;
 }
 
 .down img {
@@ -58,7 +51,7 @@ article#up img {
 .featuredHeading {
     clear: both;
     display: flex;
-    padding: 30px 0px 30px 80px;
+    padding: 30px 0px 30px 0px;
 }
 
 .featuredHeading .right {
@@ -67,6 +60,7 @@ article#up img {
     overflow: hidden;
     width: 50%;
     height: 400px;
+    padding-left: 30px;
 }
 
 .featuredHeading .left {
@@ -116,15 +110,14 @@ button:hover {
 }
 
 footer {
-    border-width: 100%;
-    background-color: #808080;
-    height: 93px;
+    background: #353636;
+    height: 90px;
 }
 
 footer p {
     font-size: 30px;
     font-weight: bold;
-    color: #333;
+    color: rgb(168, 164, 164);
     padding-top: 35px;
     text-align: center;
 }
