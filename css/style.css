@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1100px;
+}
+
+header {
+    border-width: 100%;
+    background-color: #808080;
+}
+
+.container {
+    display: flex;
+}
+
+.container .logo {
+    margin: 10px 20px 10px 80px;
+}
+
+img.logo {
+    width: 25%;
+}
+
+.container .navbar {
+    width: 75%;
+    margin: auto;
+    text-align: left;
+}
+
+nav ul li {
+    display: inline;
+    padding-left: 80px;
+    text-align: left;
+}
+
+main {
+    width: 100%;
+}
+
+article#up img {
+    padding: 30px 80px 30px 80px;
+}
+
+.down {
+    display: flex;
+    padding-left: 80px;
+}
+
+.down img {
+    padding: 0px 30px 0px 0px;
+}
+
+.featuredHeading {
+    clear: both;
+    display: flex;
+    padding: 30px 0px 30px 80px;
+}
+
+.featuredHeading .right {
+    color: black;
+    height: inherit;
+    overflow: hidden;
+    width: 50%;
+    height: 400px;
+}
+
+.featuredHeading .left {
+    width: 50%;
+}
+
+.right .text {
+    overflow: scroll;
+    height: 350px;
+    padding-right: 0;
+    text-align: justify;
+}
+
+.text p {
+    width: 450px;
+}
+
+.right h5 {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.right .text::-webkit-scrollbar {
+    display: none;
+}
+
+.right .text {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: red;
+}
+
+footer {
+    border-width: 100%;
+    background-color: #808080;
+    height: 93px;
+}
+
+footer p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    padding-top: 35px;
+    text-align: center;
+}
